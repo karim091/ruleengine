@@ -6,12 +6,33 @@ package com.ruleengine.jsp.com.rules.common;
 
 public class newDTO implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public newDTO() {
-    }
+	private java.lang.Integer id;
+	private java.lang.Integer age;
 
+	public newDTO() {
+	}
 
+	public java.lang.Integer getId() {
+		return this.id;
+	}
 
+	public void setId(java.lang.Integer id) {
+		this.id = id;
+	}
+
+	public java.lang.Integer getAge() {
+		return this.age;
+	}
+
+	public void setAge(java.lang.Integer age) {
+		this.age = age;
+	}
+
+	public newDTO(java.lang.Integer id, java.lang.Integer age) {
+		this.id = id;
+		this.age = age;
+	}
 
 }
